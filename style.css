@@ -1,0 +1,57 @@
+.fa-th {
+  color: rgb(19, 102, 102);
+}
+/* !important 讓 hover的優先權高於 html的 style 設定*/
+.fa-th:hover {
+  color: rgb(19, 102, 102) !important;
+}
+
+.fa-bars:hover {
+  color: rgb(19, 102, 102) !important;
+}
+
+#search-input:hover {
+  border: 1px solid rgb(19, 102, 102);
+}
+
+h5.card-title {
+  color: rgb(0, 0, 0);
+}
+h5.card-title:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(243, 243, 243);
+}
+
+/* 空白星星 */
+.far.fa-star {
+  font-size: 20px;
+  color: grey;
+}
+.far.fa-star:hover {
+  color: rgb(0, 32, 70);
+}
+
+/* 紮實星星 */
+.fas.fa-star {
+  font-size: 20px;
+  color: rgb(0, 32, 70);
+}
+.fas.fa-star:hover {
+  color: grey;
+}
+
+/* 加入收藏 */
+.fas.fa-info-circle {
+  font-size: 20px;
+}
+.card img:hover {
+  transform: scale(1.03);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
